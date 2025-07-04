@@ -46,7 +46,7 @@ I'm a passionate **Software Engineer & AI Developer** based in Canada. I special
 
 ## 📈 My GitHub Stats
 
-[![Vardan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=vardansaini&count_private=true&theme=tokyonight&showicons=true&hide=stars)](https://github.com/anuraghazra/github-readme-stats)
+<!-- [![Vardan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=vardansaini&count_private=true&theme=tokyonight&showicons=true&hide=stars)](https://github.com/anuraghazra/github-readme-stats) -->
 
 [![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=vardansaini&langs_count=8&theme=tokyonight&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
