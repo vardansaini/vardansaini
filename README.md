@@ -48,7 +48,7 @@
 
 ## 🚀 Current Projects
 
-- **Mechanic Maker:** Advanced AI-powered platform for accessible game development ([Read the Paper](https://ojs.aaai.org//index.php/AIIDE/article/view/7450))
+- **Mechanic Maker:** Advanced AI-powered platform for accessible game development ([Read the Paper](https://ojs.aaai.org/index.php/AIIDE/article/view/7450))
 - **Real-Time Data Pipeline:** Leveraging Kubernetes, Kafka, FastAPI, and Streamlit for efficient data analytics
 - **Unified SSO Solution:** Streamlining authentication for enhanced productivity across multiple platforms
 
