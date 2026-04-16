@@ -19,16 +19,33 @@
 
 ---
 
-## 📈 GitHub Stats
+## 💼 What I Work On
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vardansaini&show_icons=true&theme=tokyonight&count_private=true" alt="Vardan's GitHub stats" height="165" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vardansaini&theme=tokyonight" alt="Vardan's GitHub streak" height="165" />
-</p>
+- **AI + Accessibility Products**  
+  Building tools like **Mechanic Maker** that make complex workflows more inclusive and easier to use.
+- **Data & Platform Engineering**  
+  Designing real-time data systems with **Kafka, FastAPI, Streamlit, and Kubernetes** for analytics and decision support.
+- **Full-Stack Product Development**  
+  Shipping end-to-end features across frontend and backend systems with performance and maintainability in mind.
+- **Identity & Enterprise Workflows**  
+  Developing **SSO and authentication** solutions that simplify access and improve productivity.
+- **Research & Applied Innovation**  
+  Publishing at venues like **AIIDE** and **ICER** and translating research into practical software.
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vardansaini&langs_count=8&theme=tokyonight&layout=compact" alt="Top languages" height="165" />
-</p>
+---
+
+## 🚀 Featured Projects
+
+- **Mechanic Maker:** Advanced AI-powered platform for accessible game development ([Read the Paper](https://ojs.aaai.org/index.php/AIIDE/article/view/7450))
+- **Real-Time Data Pipeline:** Leveraging Kubernetes, Kafka, FastAPI, and Streamlit for efficient data analytics
+- **Unified SSO Solution:** Streamlining authentication for enhanced productivity across multiple platforms
+
+---
+
+## 📖 Recent Publications
+
+- **Mechanic Maker: Accessible Game Development via Symbolic Learning Program Synthesis** (AIIDE, 2024)
+- **Capstone Course Dashboard: Analyzing Team Dynamics in Software Engineering Education** (ICER, 2023)
 
 ---
 
@@ -46,25 +63,18 @@
 
 ---
 
-## 🚀 Current Projects
-
-- **Mechanic Maker:** Advanced AI-powered platform for accessible game development ([Read the Paper](https://ojs.aaai.org/index.php/AIIDE/article/view/7450))
-- **Real-Time Data Pipeline:** Leveraging Kubernetes, Kafka, FastAPI, and Streamlit for efficient data analytics
-- **Unified SSO Solution:** Streamlining authentication for enhanced productivity across multiple platforms
-
----
-
-## 📖 Recent Publications
-
-- **Mechanic Maker: Accessible Game Development via Symbolic Learning Program Synthesis** (AIIDE, 2024)
-- **Capstone Course Dashboard: Analyzing Team Dynamics in Software Engineering Education** (ICER, 2023)
-
----
-
 ## 📚 Education
 
 🎓 **University of Alberta**  
 *B.Sc. Computer Science (Specialization) | Certificate in Innovation & Entrepreneurship*
+
+---
+
+## 📈 GitHub Snapshot
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vardansaini&langs_count=8&theme=tokyonight&layout=compact" alt="Top languages" height="155" />
+</p>
 
 ---
 
