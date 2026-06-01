@@ -10,8 +10,8 @@ function CardsBlack() {
           <ul className='cards__items'>
             <CardItemBlack
               src='images/paper.png'
-              text="A Demonstration of Mechanic Maker: An AI for Mechanics Co-Creation | Published in AIIDE one of AI's best conference"
-              label='Published Paper'
+              text="A Demonstration of Mechanic Maker: An AI for Mechanics Co-Creation — Published at AAAI Conference on AI and Interactive Digital Entertainment (AIIDE)"
+              label='AAAI / AIIDE 2021'
               path="https://ojs.aaai.org/index.php/AIIDE/article/view/7450/7349"
             />
           </ul>

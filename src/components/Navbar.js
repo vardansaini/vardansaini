@@ -1,72 +1,38 @@
-import React, {useState, useEffect} from 'react';
-import {Link} from 'react-router-dom';
-import { Button } from './Button';
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css'
 
 function Navbar() {
     const [click, setClick] = useState(false);
-    const [button, setButton] = useState(true)
+    const [scrolled, setScrolled] = useState(false);
 
     const handleClick = () => setClick(!click);
-    const closeMobileMenu = () => setClick(false)
-
-    const showButton = () => {
-        if(window.innerWidth <= 960){
-            setButton(false)
-        }else{
-            setButton(true)
-        }
-    };
+    const closeMobileMenu = () => setClick(false);
 
     useEffect(() => {
-        showButton();
-    }, [])
-
-    window.addEventListener('resize', showButton);
+        const handleScroll = () => setScrolled(window.scrollY > 50);
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
 
     return (
-        <>
-        <nav className="navbar">
-            <div className="navbar-container">
-                <Link to="/vardansaini" className="navbar-logo" onClick={closeMobileMenu}>
-                
-                Vardan Saini {/*<i className="fab fa-typo3"/>*/}
-                        
+        <nav className={`nav ${scrolled ? 'nav--scrolled' : ''}`}>
+            <div className='nav__inner'>
+                <Link to="/vardansaini" className="nav__logo" onClick={closeMobileMenu}>
+                    VS
                 </Link>
-                <div className='menu-icon' onClick={handleClick}>
-                <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-                    </div>
-                    <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                    <li className='nav-item'>
-                         <a href="#Profile" className='nav-links' onClick={closeMobileMenu}>
-                            Home
-                        </a>
-                        
-                        </li>
-                        <li className='nav-item'>
-                         <a href="#About" className='nav-links' onClick={closeMobileMenu}>
-                            About
-                        </a>
-                        
-                        </li>
-                        <li className='nav-item'>
-                       <a href="#Publications" className='nav-links' onClick={closeMobileMenu}>
-                            Publications
-                        </a>
-                        
-                        </li>
-                        <li className='nav-item'>
-                          <a href="#Projects" className='nav-links' onClick={closeMobileMenu}>
-                            Projects
-                        </a>
-                        
-                        </li>
-                        
-    </ul>
-                    
+                <div className='nav__toggle' onClick={handleClick}>
+                    <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                 </div>
-                </nav>
-        </>
+                <ul className={click ? 'nav__menu nav__menu--open' : 'nav__menu'}>
+                    {['About', 'Skills', 'Experience', 'Ventures', 'Publications', 'Projects'].map(item => (
+                        <li key={item} className='nav__item'>
+                            <a href={`#${item}`} className='nav__link' onClick={closeMobileMenu}>{item}</a>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        </nav>
     );
 }
 

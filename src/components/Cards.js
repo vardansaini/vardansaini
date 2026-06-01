@@ -5,49 +5,48 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out my work so far!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
               src='images/GM.png'
-              text='AI based no-code platform for 2D game development | Built using Unity'
-              label='Research Project'
+              text='Mechanic Maker — AI-powered no-code platform for 2D game development using deep learning, symbolic learning, and program synthesis. Published at AAAI/AIIDE 2020 & 2024. Built with Unity, C#, Python, and PyTorch.'
+              label='AI Research — Published'
               path='/vardansaini/projects'
             />
             <CardItem
-              src='images/H-Log.jpg'
-              text='Android app which helps you track your habits and follow your friends habits.'
-              label='Android Project'
-              path="https://github.com/CMPUT301F21T20/HabitTracker.git"
+              src='images/Inclusify.png'
+              text='Inclusify — NLP-powered web app that analyzes social media content for inclusivity using sentiment analysis and text classification. Winner at Hack The North.'
+              label='Hack The North Winner'
+              path="https://github.com/Techno-cratz/Inclusify"
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/Inclusify.png'
-              text='React based web app which makes sure that everyone feels included on social media.'
-              label='Hack The north WINNER'
-              path="https://github.com/Techno-cratz/Inclusify"
-            />
-            <CardItem
               src='images/BP.png'
-              text='Everyone loves to save money and we made sure you do!'
-              label='Top 5 in hip,hack[array]'
+              text='BestPrice — Intelligent price comparison engine with web scraping and data aggregation pipelines. Top 5 finish at hip,hack[array] hackathon.'
+              label='Top 5 Hackathon'
               path="https://github.com/Techno-cratz/BestPrice"
             />
             <CardItem
+              src='images/H-Log.jpg'
+              text='HabitTracker — Full-stack Android app with real-time Firestore sync, social following features, and data visualization for habit tracking and analytics.'
+              label='Android / Java'
+              path="https://github.com/CMPUT301F21T20/HabitTracker.git"
+            />
+            <CardItem
               src='images/flutter.png'
-              text='App for Android and ios made using flutter for people who need help'
-              label='Flutter Project'
+              text='Med Assist — Cross-platform healthcare application built with Flutter and Firebase, providing medical assistance and appointment management for patients.'
+              label='Flutter / Dart'
               path="https://github.com/vardansaini/med_assist"
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-             src='images/GH.png'
-             text='If you are interested in more projects like these check out my github | Source code for this website also availble there!'
-             label='Github'
-             path='https://github.com/vardansaini'
+              src='images/GH.png'
+              text='More on GitHub — fMRI image reconstruction with diffusion models, GPT-powered chatbots with NL2SQL, emotion detection via CV, text summarization with BART/T5, and 50+ more repos.'
+              label='GitHub'
+              path='https://github.com/vardansaini'
             />
           </ul>
         </div>

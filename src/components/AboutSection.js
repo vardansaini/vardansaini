@@ -1,37 +1,46 @@
 import React from 'react'
-import { Button } from './Button'
 import './HeroSection.css'
-import VS from './images/VS_new.jpg'
-import GM from './images/GM.png'
+import ScrollReveal from './ScrollReveal'
 
 function AboutSection() {
     return (
-        <div className='hero-container-projects'>
-            <div className='hero-section'>
-            
-            {/*<div className='image-cropper-projects'><img className='hero-image-projects' src={GM} alt='Vardan Saini' />
-            </div> */}
-            <div className='hero-text-projects' >
-            <h1 >About</h1>
-            <p style={{paddingRight:30, paddingLeft:30, textAlign:'center', fontWeight: 'bold',justifyContent: 'center',
-        alignItems: 'center', lineHeight: 3, wordSpacing: 5, marginLeft: 'auto',marginRight: 'auto'}}> I built my first Android app for my school in India at the age of 15. Since then, my interest in technology has only grown exponentially. 
-                Following my passion to build technical products as well as to help builders build technical products more easily, I started collaborating 
-                on a no-code platform for building games using AI. I’m looking for an opportunity to apply my learning at a product-focused technical 
-                organization.</p>
+        <section className='section section--light' aria-label="About">
+            <div className='section__inner'>
+                <ScrollReveal>
+                    <p className='section__label'>About</p>
+                </ScrollReveal>
+                <ScrollReveal delay={100}>
+                    <h2 className='section__headline'>
+                        Software engineer with a passion for building scalable systems and AI-driven applications across research, gaming, and real-time environments.
+                    </h2>
+                </ScrollReveal>
+                <ScrollReveal delay={200}>
+                    <p className='section__body'>
+                        Currently engineering healthcare systems at the University of Alberta with Dr. Eleni Stroulia, and building Generative AI design platforms at H10AI with LangChain and Google Gemini. My research at the GRAIL Lab with Dr. Matthew Guzdial has produced 3 peer-reviewed publications at AAAI/AIIDE and ACM ICER.
+                    </p>
+                </ScrollReveal>
+                <ScrollReveal delay={300}>
+                    <div className='stats-row'>
+                        <div className='stat'>
+                            <span className='stat__number'>3</span>
+                            <span className='stat__label'>Publications</span>
+                        </div>
+                        <div className='stat'>
+                            <span className='stat__number'>6+</span>
+                            <span className='stat__label'>Roles</span>
+                        </div>
+                        <div className='stat'>
+                            <span className='stat__number'>3.8</span>
+                            <span className='stat__label'>GPA</span>
+                        </div>
+                        <div className='stat'>
+                            <span className='stat__number'>2+</span>
+                            <span className='stat__label'>Hackathon Wins</span>
+                        </div>
+                    </div>
+                </ScrollReveal>
             </div>
-            
-            </div>       
-           
-            
-            <div className="hero-btns">
-                {/*<Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>GET STARTED</Button>*/}
-                {/*<Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>Watch Trailer <i className='far fa-play-circle'/> </Button>*/}
-                </div>
-        {/*<div className='check'>
-        <h1>Heading for the section</h1>
-    </div>*/}
-            </div>
-        
+        </section>
     )
 }
 

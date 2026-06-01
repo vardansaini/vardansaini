@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Vardan Saini",
+  "name": "Vardan Saini — Software Engineer & ML Engineer",
+  "description": "Portfolio of Vardan Saini — Software Engineer, Machine Learning Engineer, and AI Researcher.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +21,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#0B0C10",
+  "background_color": "#0B0C10"
 }
