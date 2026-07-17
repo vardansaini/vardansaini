@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/vardansaini/static/css/main.25797ca4.css",
-    "main.js": "/vardansaini/static/js/main.7beb371f.js",
-    "static/media/GM.png": "/vardansaini/static/media/GM.96f8fb645af49a43d2c4.png",
+    "main.css": "/vardansaini/static/css/main.45bc051e.css",
+    "main.js": "/vardansaini/static/js/main.ca150b95.js",
     "static/media/VS_new.jpg": "/vardansaini/static/media/VS_new.339fca1da928551fe5dd.jpg",
-    "static/media/Geo.jpg": "/vardansaini/static/media/Geo.76e6c5a5dda401989ea3.jpg",
     "index.html": "/vardansaini/index.html",
-    "main.25797ca4.css.map": "/vardansaini/static/css/main.25797ca4.css.map",
-    "main.7beb371f.js.map": "/vardansaini/static/js/main.7beb371f.js.map"
+    "main.45bc051e.css.map": "/vardansaini/static/css/main.45bc051e.css.map",
+    "main.ca150b95.js.map": "/vardansaini/static/js/main.ca150b95.js.map"
   },
   "entrypoints": [
-    "static/css/main.25797ca4.css",
-    "static/js/main.7beb371f.js"
+    "static/css/main.45bc051e.css",
+    "static/js/main.ca150b95.js"
   ]
 }
